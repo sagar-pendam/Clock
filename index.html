@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+  body{
+    margin:0px;
+    padding:0px;
+    background-color:#5C4B99;
+    
+  }
+  #container{
+    background-color: #5C4B99;
+    display: flex;
+    
+    /* margin: 100px auto; */
+    width:100%;
+    height: 50vh;
+    justify-content: center;
+    align-items:center;
+    /* border: 2px solid greenyellow; */
+    border-radius: 20px;
+  }
+  .items{
+    width: 150px;
+    height: 150px;
+    background-color: #3D246C;
+    margin:10px 20px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    /* border:1px solid orange; */
+    border-radius: 20px;
+    font-size: 3.4rem;
+    color:white;
+    box-shadow: 14px 10px 20px 5px #3D246C ;
+    
+    
+    
+  }
+  .text-size{
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .items{
+    text-size: 3.5rem;
+  }
+  .titles{
+    color: white;
+    font-size: 3.6rem;
+    margin-top: 100px;
+    /* text-shadow: 2px 1px 20px #6c2424; */
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+  }
+  .c{
+     text-shadow: 2px 1px 20px #6c2424;
+    transition: 2s;
+    transition-timing-function: ease;
+  }
+  .d{
+    text-shadow: 2px 1px 20px greenyellow;
+    transition: 2s;
+    transition-timing-function: ease;
+  }
+  .con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+</style>
+<body>
+  <div class="con">
+    
+ 
+  <div class="titles c">Digital Clock</div>
+  <div id="container">
+
+    </div>
+     </div>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
